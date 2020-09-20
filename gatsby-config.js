@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `CressDev Blog`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Juan Barahona`,
+      summary: `con el objetivo de distribuir contenido educacional de calidad.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    description: `Aprende a desarrollar y distribuir Software de la manera mas agil y entendible posible. Junto a un contenido educacional de calidad.`,
+    siteUrl: `https://cressdev.io/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `cressdev`,
     },
   },
   plugins: [
@@ -53,20 +53,20 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-178489184-1`,
       },
     },
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
+        name: `CressDev Blog`,
         short_name: `GatsbyJS`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/cressdev-icon.png`,
       },
     },
     `gatsby-plugin-react-helmet`,
