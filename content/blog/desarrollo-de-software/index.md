@@ -17,7 +17,7 @@ Entonces, vamos a comenzar con una de las partes más importantes:
 Sí, en palabras bastante simples, **software** es solo un conjunto de instrucciones que te permite hacer que tu computadora haga lo que quieras, desde prender las luces de un cuarto hasta interconectar gente en diferentes partes del mundo. Ahora que sabes que es software es probable que te estes preguntando:
 
 # ¿Como puedo crear Software?
-Bien, si el software no es nada más que un conjunto de instrucciones, entonces para crearlo necesitamos una forma de escribir tales instrucciones. Como humanos nos hemos ido comunicándonos instrucciones el uno al otro mediante el uso de lo que llamamos "lenguajes" y es precisamente esta la misma forma con la que podremos comunicar instrucciones a las computadoras, aunque en este contexto en vez de llamarlos "lenguajes" los llamaremos ** lenguajes de programación **.
+Bien, si el software no es nada más que un conjunto de instrucciones, entonces para crearlo necesitamos una forma de escribir tales instrucciones. Como humanos nos hemos ido comunicándonos instrucciones el uno al otro mediante el uso de lo que llamamos "lenguajes" y es precisamente esta la misma forma con la que podremos comunicar instrucciones a las computadoras, aunque en este contexto en vez de llamarlos "lenguajes" los llamaremos **lenguajes de programación**.
 
 ## ¿Qué es un lenguaje de programación?
 En resumen, un lenguaje de programación es como cualquier otro lenguaje que usamos diariamente para comunicarnos, aun asi lo definiremos como un sistema estructurado con un conjunto de reglas que nos permite construir instrucciones de tal manera que nuestra computadora pueda comprendernos.  
@@ -25,7 +25,7 @@ En resumen, un lenguaje de programación es como cualquier otro lenguaje que usa
 Así como nosotros tenemos varios lenguajes para comunicarnos, en el mundo del software tenemos varios lenguajes de programación entre los que elegir, sin embargo, es muy importante entender que existen dos grandes categorías entre ellos
 
 ### Lenguajes de alto nivel y de bajo nivel
-Bien, aun cuando en el mundo del software tenemos varios lenguajes de programación, resulta que el único lenguaje que la computadora realmente puede entender es el llamado ** Código de máquina **, el cual es un ** lenguaje de programación de bajo nivel ** y puede verse de la siguiente manera:
+Bien, aun cuando en el mundo del software tenemos varios lenguajes de programación, resulta que el único lenguaje que la computadora realmente puede entender es el llamado **Código de máquina**, el cual es un **lenguaje de programación de bajo nivel** y puede verse de la siguiente manera:
 
 ```
 8B542408 83FA0077 06B80000 0000C383 FA027706 B8010000 
@@ -46,7 +46,7 @@ En este formato y con un poco de conocimiento del Ingles la mayoría de las pala
 ## ¿Que es un Compilador?
 En el mundo del software, un compilador es básicamente un traductor, el cual toma el código que escribiste en el lenguaje de programacion de tu elección y lo convierte en código de máquina, de esta manera las computadoras pueden entender lo que deseas que hagan.
 
-Los lenguajes y los compiladores son los componentes básicos para crear software y estaremos hablando más sobre ellos en futuras publicaciones, pero ahora, es momento de comprender que hoy en día para crear software necesitamos más que componentes básicos. Para construirlos, necesitamos completos ** ecosistemas ** y aunque esto puede parecer aterrador y complejo en realidad son fáciles de usar y nos facilitaran mucho el trabajo.
+Los lenguajes y los compiladores son los componentes básicos para crear software y estaremos hablando más sobre ellos en futuras publicaciones, pero ahora, es momento de comprender que hoy en día para crear software necesitamos más que componentes básicos. Para construirlos, necesitamos completos **ecosistemas** y aunque esto puede parecer aterrador y complejo en realidad son fáciles de usar y nos facilitaran mucho el trabajo.
 
 # Ecosistemas de desarrollo
 Expliquemos en palabras simples qué es un ecosistema de desarrollo y cuales son sus componentes:
@@ -66,7 +66,7 @@ Expliquemos en palabras simples qué es un ecosistema de desarrollo y cuales son
 ¡Hey! ¿dónde queda el compilador en todo esto? Hoy en día el "proceso de compilación" es mucho más complejo, diferentes compiladores pueden estar en diferentes lugares del desarrollo al mismo tiempo, algunos pueden caer en la categoría de herramientas mientras que otros pueden ser parte de los "Runtimes". Aprenderemos más sobre esto en publicaciones futuras.
 
 ### Son realmente artos componentes, ¿necesito instalar todas esas cosas?
-¡Afortunadamente no! Hoy en día tenemos algo llamado ** SDK ** o ** kit de desarrollo de software ** el cual es un paquete todo en uno que podemos instalar para tener todo el ecosistema de nuestra elección en nuestras máquinas.
+¡Afortunadamente no! Hoy en día tenemos algo llamado **SDK** o **kit de desarrollo de software** el cual es un paquete todo en uno que podemos instalar para tener todo el ecosistema de nuestra elección en nuestras máquinas.
 
 # El ecosistema .NET
 .NET es uno de esos ecosistemas de desarrollo, es multiplataforma, de **código abierto** y con él puedes construir casi cualquier software que te puedas imaginar.
